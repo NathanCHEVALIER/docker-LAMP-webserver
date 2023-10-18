@@ -1,0 +1,5 @@
+DirectoryIndex index.php [END]
+RewriteEngine On
+RewriteBase "/"
+
+RewriteRule ^test[\/]?$ index.php [END]
